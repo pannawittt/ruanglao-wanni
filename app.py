@@ -13,7 +13,7 @@ def load_model():
     save_dest = Path('model')
     save_dest.mkdir(exist_ok=True)
     
-    f_checkpoint = Path("model/skyAR_coord_resnet50.pt")
+    f_checkpoint = Path("model/checkpoint-4500")
 
     if not f_checkpoint.exists():
         with st.spinner("Downloading model... this may take awhile! \n Don't stop it!"):

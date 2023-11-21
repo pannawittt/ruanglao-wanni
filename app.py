@@ -1,6 +1,6 @@
 import streamlit as st
 from transformers import pipeline
-from pathlib import Path
+# from pathlib import Path
 st.title("wanneemee KHAW-RAI")
 st.subheader("kummakornKHAW kuuynaijor")
 
